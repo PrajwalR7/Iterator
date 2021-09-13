@@ -1,0 +1,19 @@
+{
+  "name": "iterator",
+  "version": "1.0.0",
+  "description": "An iterator for collections",
+  "main": "iterator.js",
+  "dependencies": {},
+  "keywords": [
+    "Iterator",
+    "Collection-Iterator"
+  ],
+  "devDependencies": {
+    "jest": "^27.2.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Prajwal R <rameshprajwal21@gmail.com>",
+  "license": "ISC"
+}
