@@ -1,5 +1,5 @@
 {
-  "name": "iterator",
+  "name": "collection-iterator",
   "version": "1.0.0",
   "description": "An iterator for collections",
   "main": "iterator.js",
@@ -15,5 +15,5 @@
     "test": "jest"
   },
   "author": "Prajwal R <rameshprajwal21@gmail.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
