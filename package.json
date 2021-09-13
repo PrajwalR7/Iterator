@@ -11,6 +11,11 @@
   "devDependencies": {
     "jest": "^27.2.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PrajwalR7/Iterator"
+  },
+  "homepage": "https://github.com/PrajwalR7/Iterator#readme",
   "scripts": {
     "test": "jest"
   },
