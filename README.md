@@ -12,7 +12,7 @@ const res = newCollection.iterator()+10 //newCollection.iterator() gives the sec
 ```
 ## Installation and Usage
 Run ```npm install collection-iterator``` to install the package \
-In your project run the following command to use the iterator \
+In your project run the following command to use the iterator 
 ```javascript
 const { Stream } = require('collection-iterator')
 ```
@@ -22,7 +22,8 @@ In order to use the iterator, we need to create an object with a property names 
 ```javascript
 const myCollection = new Stream([4,5,6])
 ```
-Now we can run the iterator function which gives out each element as the output \ 
+Now we can run the iterator function which gives out each element as the output\
+
 We can also pass a set as input
 ```javascript
 const mySetCollection = new Stream({1,2,{a:10,b:20}});
