@@ -6,14 +6,19 @@ function outer(){
     return inner;
 }
 
-const use = outer();
 
 class Stream{
     constructor (collection){
+        this.flag = true;
+        this.innerFunc = null;
         this.collection = collection;
     }
     iterator(){
-        let i = use();
+        if(this.flag === true){
+            this.innerFunc = outer();
+            this.flag = false;
+        }
+        let i = this.innerFunc();
         let isSet = false;
         try {
             if(this.collection[i] === undefined){
