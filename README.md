@@ -18,7 +18,7 @@ const { Stream } = require('collection-iterator')
 ```
 This above command imports an function(Object) called Stream which has the required properties to run the iterator 
 ### Using Stream and new keyword
-In order to use the iterator, we need to create an object with a property names collections which will store our array/list or set \
+In order to use the iterator, we need to create an object with a property names collections which will store our array/list or set 
 ```javascript
 const myCollection = new Stream([4,5,6])
 ```
